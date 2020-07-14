@@ -24,7 +24,10 @@ class ViewController: UIViewController {
         diceImageView2.image = #imageLiteral(resourceName: "DiceTwo")
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func rollButonPressed(_ sender: UIButton) {
+        print("button press")
+        diceImageView1.image = #imageLiteral(resourceName: "DiceFour")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceFour")
+    }
 }
 
